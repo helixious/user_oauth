@@ -3,6 +3,7 @@ require('dotenv').config();
 const Minio = require('minio');
 
 const {MINIO_HOST, MINIO_PORT, MINIO_ACCESS_KEY, MINIO_SECRET_KEY} = process.env;
+
 const minioClient = new Minio.Client({
     endPoint: MINIO_HOST,
     port: Number(MINIO_PORT),
