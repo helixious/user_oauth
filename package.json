@@ -1,0 +1,38 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "passport gateway",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "sle",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "minio": "^7.0.16",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.4.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "faker": "^5.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
